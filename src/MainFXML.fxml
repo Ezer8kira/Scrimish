@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="1104.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFXMLController">
+   <children>
+      <ImageView fx:id="bg" fitHeight="692.0" fitWidth="1107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bg.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="gamepane" prefHeight="682.0" prefWidth="1104.0">
+         <children>
+            <Button layoutX="90.0" layoutY="400.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="95.0">
+               <graphic>
+                  <ImageView fitHeight="200.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="290.0" layoutY="400.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="95.0">
+               <graphic>
+                  <ImageView fitHeight="200.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="490.0" layoutY="400.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="95.0">
+               <graphic>
+                  <ImageView fitHeight="200.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="690.0" layoutY="400.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="95.0">
+               <graphic>
+                  <ImageView fitHeight="200.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="890.0" layoutY="400.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="95.0">
+               <graphic>
+                  <ImageView fitHeight="200.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="star" layoutX="484.0" layoutY="220.0" mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/start.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fx:id="start" fitHeight="198.0" fitWidth="606.0" layoutX="297.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/battle.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="selectpane" prefHeight="690.0" prefWidth="1112.0" visible="false">
+         <children>
+            <ImageView fx:id="selectbg" fitHeight="592.0" fitWidth="711.0" layoutX="15.0" layoutY="55.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/selectbg.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="deckpane" layoutX="12.0" layoutY="55.0" opacity="0.0" prefHeight="548.0" prefWidth="593.0">
+               <children>
+                  <Button fx:id="c11" layoutX="191.0" layoutY="61.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c11i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c12" layoutX="271.0" layoutY="61.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c12i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c13" layoutX="351.0" layoutY="61.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c13i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c14" layoutX="433.0" layoutY="61.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c14i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c15" layoutX="512.0" layoutY="61.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c15i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c25" layoutX="512.0" layoutY="150.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c25i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c24" layoutX="433.0" layoutY="150.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c24i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c23" layoutX="351.0" layoutY="150.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c23i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c22" layoutX="271.0" layoutY="150.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c22i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c21" layoutX="193.0" layoutY="150.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c21i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c31" layoutX="193.0" layoutY="237.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c31i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c32" layoutX="271.0" layoutY="237.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c32i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c33" layoutX="351.0" layoutY="237.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c33i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c34" layoutX="433.0" layoutY="237.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c34i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c35" layoutX="512.0" layoutY="237.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c35i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c45" layoutX="512.0" layoutY="323.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c45i" fitHeight="60.0" fitWidth="60.0" layoutX="60.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c44" layoutX="433.0" layoutY="323.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c44i" fitHeight="60.0" fitWidth="60.0" layoutX="60.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c43" layoutX="351.0" layoutY="323.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c43i" fitHeight="60.0" fitWidth="60.0" layoutX="60.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c42" layoutX="271.0" layoutY="323.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c42i" fitHeight="60.0" fitWidth="60.0" layoutX="60.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c41" layoutX="191.0" layoutY="323.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c41i" fitHeight="60.0" fitWidth="60.0" layoutX="60.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c51" layoutX="191.0" layoutY="411.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c51i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c52" layoutX="271.0" layoutY="411.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c52i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c53" layoutX="351.0" layoutY="411.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c53i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c54" layoutX="433.0" layoutY="411.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c54i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="c55" layoutX="512.0" layoutY="411.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fx:id="c55i" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="auto" layoutX="250.0" layoutY="511.0" mnemonicParsing="false" text="Auto Fill" visible="false" />
+                  <Button fx:id="battlestart" layoutX="420.0" layoutY="490.0" mnemonicParsing="false" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/battle.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+            <Button fx:id="selectdagger" layoutX="729.0" layoutY="50.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectdaggeri" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/dagger.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectsword" layoutX="841.0" layoutY="50.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectswordi" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/sword.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectmorning" layoutX="956.0" layoutY="50.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectmorningi" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/morningstar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectaxe" layoutX="729.0" layoutY="205.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectaxei" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/waraxe.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectharber" layoutX="841.0" layoutY="205.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectharberi" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/halberd.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectlong" layoutX="956.0" layoutY="205.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectlongi" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Longsword.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectarcher" layoutX="729.0" layoutY="355.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectarcheri" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Archer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectshield" layoutX="841.0" layoutY="355.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectshieldi" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/shield.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="selectking" layoutX="956.0" layoutY="355.0" mnemonicParsing="false" opacity="0.0">
+               <graphic>
+                  <ImageView fx:id="selectkingi" fitHeight="126.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/king.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fx:id="mazel" fitHeight="169.0" fitWidth="422.0" layoutX="660.0" layoutY="500.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/mazel.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="n1" layoutX="720.0" layoutY="532.0" text="1" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n2" layoutX="800.0" layoutY="532.0" text="2" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n3" layoutX="875.0" layoutY="532.0" text="3" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n4" layoutX="952.0" layoutY="532.0" text="4" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n5" layoutX="700.0" layoutY="595.0" text="5" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n6" layoutX="770.0" layoutY="595.0" text="6" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n7" layoutX="840.0" layoutY="595.0" text="7" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n8" layoutX="904.0" layoutY="595.0" text="8" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="n9" layoutX="974.0" layoutY="595.0" text="9" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <ImageView fx:id="blackbg" fitHeight="682.0" fitWidth="1104.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/blackScreen.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
